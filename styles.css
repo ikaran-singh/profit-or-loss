@@ -1,8 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #38a832;
+}
+
 body {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  margin: 2rem;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+input {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--green);
+  border-radius: 0.4rem;
+  font-size: large;
+  max-width: 350px;
 }
 
 label {
   display: block;
-  padding-bottom: 1rem;
+  margin: 2rem 0;
+  font-size: large;
+  font-weight: 600;
+}
+
+#calculate-btn {
+  margin: auto;
+  display: block;
+  padding: 0.7rem 1rem;
+  background: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: large;
+}
+
+#output {
+  margin: 2rem 0;
+  font-size: x-large;
+  font-weight: 700;
 }
